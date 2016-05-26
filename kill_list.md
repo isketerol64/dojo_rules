@@ -5,3 +5,6 @@ Functions with side effects
 Unformatted code
 Repeated code blocks
 Bad variable names
+All members should read the rules
+
+https://github.com/deadlyvipers
