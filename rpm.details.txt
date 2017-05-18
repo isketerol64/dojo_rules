@@ -1,0 +1,395 @@
+Name        : AIX-rpm                      Relocations: (not relocateable)
+Version     : 7.2.1.0                           Vendor: (none)
+Release     : 1                             Build Date: Wed Apr 12 13:10:36 CDT 2017
+Install date: Wed Apr 12 13:10:37 CDT 2017      Build Host: loopback
+Group       : System Environment/Libraries   Source RPM: AIX-rpm-7.2.1.0-1.src.rpm
+Size        : 0                                License: none
+Packager    : auto-generated
+Summary     : Virtual Package for libraries and shells installed on system
+Description :
+This package contains no files.  It is a package which contains
+information about shared libraries and shell interpreters installed
+on the operating system.
+Name        : tcl                          Relocations: /opt 
+Version     : 8.4.7                             Vendor: (none)
+Release     : 3                             Build Date: Wed May 20 05:01:55 CDT 2009
+Install date: Wed Apr 12 13:10:38 CDT 2017      Build Host: otto03.austin.ibm.com
+Group       : Development/Languages         Source RPM: tcl-8.4.7-3.src.rpm
+Size        : 0                                License: IBM_ILA
+Summary     : An embeddable scripting language(empty).
+Description :
+ This is an empty rpm used to register with the rpm db so that the AIX Director 6.1 GA server
+ continues to install successfully on AIX 61H.
+Name        : tk                           Relocations: /opt 
+Version     : 8.4.7                             Vendor: (none)
+Release     : 3                             Build Date: Wed May 20 05:02:02 CDT 2009
+Install date: Wed Apr 12 13:10:39 CDT 2017      Build Host: otto03.austin.ibm.com
+Group       : Development/Languages         Source RPM: tk-8.4.7-3.src.rpm
+Size        : 0                                License: IBM_ILA
+Summary     : The Tk GUI toolkit for Tcl, with shared libraries(empty).
+Description :
+ This is an empty rpm used to register with the rpm db so that the AIX Director 6.1 GA server
+ continues to install successfully on AIX 61H.
+Name        : expect                       Relocations: /opt 
+Version     : 5.42.1                            Vendor: (none)
+Release     : 3                             Build Date: Wed May 20 05:01:11 CDT 2009
+Install date: Wed Apr 12 13:10:40 CDT 2017      Build Host: otto03.austin.ibm.com
+Group       : Development/Languages         Source RPM: expect-5.42.1-3.src.rpm
+Size        : 0                                License: IBM_ILA
+Summary     : A tcl extension for simplifying program-script interaction(empty).
+Description :
+This is an empty rpm used to register with the rpm db so that the AIX Director 6.1 GA server
+ continues to install successfully on AIX 61H.
+Name        : bash                         Relocations: (not relocateable)
+Version     : 4.3.30                            Vendor: (none)
+Release     : 1                             Build Date: Mon Apr  4 06:28:55 CDT 2016
+Install date: Wed May 17 11:37:58 CDT 2017      Build Host: green52.in.ibm.com
+Group       : System Environment/Shells     Source RPM: bash-4.3.30-1.src.rpm
+Size        : 8297893                          License: GPLv3+
+URL         : http://www.gnu.org/software/bash
+Summary     : The GNU Bourne Again shell (bash) version %{version}
+Description :
+The GNU Bourne Again shell (Bash) is a shell or command language
+interpreter that is compatible with the Bourne shell (sh). Bash
+incorporates useful features from the Korn shell (ksh) and the C shell
+(csh). Most sh scripts can be run by bash without modification. This
+package (bash) contains bash version 4.3.30.
+
+There are 32bit and 64bit binary versions available for bash
+Name        : ca-certificates              Relocations: (not relocateable)
+Version     : 2016.10.7                         Vendor: (none)
+Release     : 1                             Build Date: Tue Feb  7 05:19:12 CST 2017
+Install date: Wed May 17 11:39:27 CDT 2017      Build Host: green52.in.ibm.com
+Group       : System Environment/Base       Source RPM: ca-certificates-2016.10.7-1.src.rpm
+Size        : 283149                           License: Public Domain
+Summary     : The Mozilla CA root certificate bundle
+Description :
+This package contains the set of CA certificates chosen by the
+Mozilla Foundation for use with the Internet PKI.
+Name        : curl                         Relocations: /opt/freeware 
+Version     : 7.52.1                            Vendor: Daniel Stenberg <Daniel.Stenberg@haxx.se>
+Release     : 1                             Build Date: Tue Jan 24 05:52:29 CST 2017
+Install date: Wed May 17 11:40:18 CDT 2017      Build Host: green52.in.ibm.com
+Group       : Applications/Internet         Source RPM: curl-7.52.1-1.src.rpm
+Size        : 1413419                          License: MIT/X derivate
+URL         : http://curl.haxx.se/
+Summary     : get a file from a FTP or HTTP server.
+Description :
+curl is a client to get documents/files from servers, using any of the
+supported protocols.  The command is designed to work without user
+interaction or any kind of interactivity.
+
+curl offers many useful tricks like proxy support, user authentication,
+ftp upload, HTTP post, file transfer resume and more.
+
+
+Note: this version is compiled with SSL support.
+Name        : expat                        Relocations: (not relocateable)
+Version     : 2.2.0                             Vendor: (none)
+Release     : 1                             Build Date: Thu Sep  1 04:58:02 CDT 2016
+Install date: Wed May 17 11:40:32 CDT 2017      Build Host: green52.in.ibm.com
+Group       : System Environment/Libraries   Source RPM: expat-2.2.0-1.src.rpm
+Size        : 1817271                          License: MIT
+URL         : http://www.libexpat.org/
+Summary     : An XML parser library
+Description :
+This is expat, the C library for parsing XML, written by James Clark. Expat
+is a stream oriented XML parser. This means that you register handlers with
+the parser prior to starting the parse. These handlers are called when the
+parser discovers the associated structures in the document being parsed. A
+start tag is an example of the kind of structures for which you may
+register handlers.
+
+The library is available as 32-bit and 64-bit.
+Name        : gettext                      Relocations: (not relocateable)
+Version     : 0.19.7                            Vendor: (none)
+Release     : 1                             Build Date: Thu Jun  2 09:02:07 CDT 2016
+Install date: Wed May 17 11:40:58 CDT 2017      Build Host: green52.in.ibm.com
+Group       : Development/Tools             Source RPM: gettext-0.19.7-1.src.rpm
+Size        : 12602657                         License: GPLv3 and LGPLv2+
+URL         : http://www.gnu.org/software/gettext/
+Summary     : GNU libraries and utilities for producing multi-lingual messages.
+Description :
+The GNU gettext package provides a set of tools and documentation for
+producing multi-lingual messages in programs. Tools include a set of
+conventions about how programs should be written to support message
+catalogs, a directory and file naming organization for the message
+catalogs, a runtime library which supports the retrieval of translated
+messages, and stand-alone programs for handling the translatable and
+the already translated strings. Gettext provides an easy to use
+library and tools for creating, using, and modifying natural language
+catalogs and is a powerful and simple method for internationalizing
+programs.
+
+The library is available as 32-bit and 64-bit.
+Name        : bzip2                        Relocations: (not relocateable)
+Version     : 1.0.6                             Vendor: (none)
+Release     : 2                             Build Date: Fri May 13 04:58:19 CDT 2016
+Install date: Wed May 17 11:47:02 CDT 2017      Build Host: green52.in.ibm.com
+Group       : Applications/File             Source RPM: bzip2-1.0.6-2.src.rpm
+Size        : 339654                           License: BSD
+URL         : http://www.bzip.org/
+Summary     : A file compression utility
+Description :
+Bzip2 is a freely available, patent-free, high quality data compressor.
+Bzip2 compresses files to within 10 to 15 percent of the capabilities
+of the best techniques available.  However, bzip2 has the added benefit
+of being approximately two times faster at compression and six times
+faster at decompression than those techniques.  Bzip2 is not the
+fastest compression utility, but it does strike a balance between speed
+and compression capability.
+
+Install bzip2 if you need a compression utility.
+
+The library is available as 32-bit and 64-bit.
+Name        : db                           Relocations: /opt/freeware 
+Version     : 4.8.24                            Vendor: (none)
+Release     : 3                             Build Date: Thu Jan 29 02:56:18 CST 2015
+Install date: Wed May 17 11:47:21 CDT 2017      Build Host: green51.in.ibm.com
+Group       : System Environment/Libraries   Source RPM: db-4.8.24-3.src.rpm
+Size        : 8518053                          License: Sleepycat
+URL         : http://www.sleepycat.com/index.html
+Summary     : The Berkeley Database, the Open Source embedded database system
+Description :
+Berekley DB is a programmatic toolkit that provides high-performance built-in
+database support for desktop and server applications and for information
+appliances.
+
+The Berkeley DB access methods include B+tree, Extended Linear Hashing, Fixed
+and Variable-length records, and Queues.  Berkeley DB provides full
+transactional support, database recovery, online backups, and separate
+access to locking, logging and shared memory caching subsystems.
+
+Berkeley DB supports C, C++, Java, Tcl, Perl, and Python APIs.
+Name        : gdbm                         Relocations: /opt/freeware 
+Version     : 1.8.3                             Vendor: (none)
+Release     : 5                             Build Date: Fri Sep 11 15:53:16 CDT 2009
+Install date: Wed May 17 11:47:35 CDT 2017      Build Host: delrio.austin.ibm.com
+Group       : System Environment/Libraries   Source RPM: gdbm-1.8.3-5.src.rpm
+Size        : 141382                           License: GPL
+URL         : http://www.gnu.org/software/gdbm
+Summary     : A GNU set of database routines which use extensible hashing.
+Description :
+Gdbm is a GNU database indexing library, including routines which use
+extensible hashing.  Gdbm works in a similar way to standard UNIX dbm
+routines.  Gdbm is useful for developers who write C applications and
+need access to a simple and efficient database or who are building C
+applications which will use such a database.
+Name        : libgcc                       Relocations: (not relocateable)
+Version     : 4.8.5                             Vendor: (none)
+Release     : 1                             Build Date: Tue Jul 19 07:15:00 CDT 2016
+Install date: Wed May 17 11:49:01 CDT 2017      Build Host: chip19.in.ibm.com
+Group       : Development/Libraries         Source RPM: gcc-4.8.5-1.src.rpm
+Size        : 6420572                          License: GPL
+URL         : http://gcc.gnu.org/
+Summary     : GCC version 4.8.5 shared support library
+Description :
+This package contains GCC shared support library which is needed
+e.g. for exception handling support.
+Name        : libstdc++                    Relocations: (not relocateable)
+Version     : 4.8.5                             Vendor: (none)
+Release     : 1                             Build Date: Tue Jul 19 07:15:00 CDT 2016
+Install date: Wed May 17 11:57:54 CDT 2017      Build Host: chip19.in.ibm.com
+Group       : Development/Libraries         Source RPM: gcc-4.8.5-1.src.rpm
+Size        : 53124090                         License: GPL
+URL         : http://gcc.gnu.org/
+Summary     : GNU Standard C++ Library
+Description :
+The libstdc++ package contains a rewritten standard compliant GCC Standard
+C++ Library.
+Name        : gmp                          Relocations: (not relocateable)
+Version     : 5.1.3                             Vendor: (none)
+Release     : 2                             Build Date: Mon Mar  7 14:32:12 CST 2016
+Install date: Wed May 17 11:58:08 CDT 2017      Build Host: green52.in.ibm.com
+Group       : System Environment/Libraries   Source RPM: gmp-5.1.3-2.src.rpm
+Size        : 2713720                          License: LGPL
+URL         : http://gmplib.org/
+Summary     : A GNU arbitrary precision library
+Description :
+The gmp package contains GNU MP, a library for arbitrary precision
+arithmetic, signed integers operations, rational numbers and floating
+point numbers. GNU MP is designed for speed, for both small and very
+large operands. GNU MP is fast because it uses fullwords as the basic
+arithmetic type, it uses fast algorithms, it carefully optimizes
+assembly code for many CPUs' most common inner loops, and it generally
+emphasizes speed over simplicity/elegance in its operations.
+
+Install the gmp package if you need a fast arbitrary precision
+library.
+
+The library is available as 32-bit and 64-bit.
+Name        : libffi                       Relocations: (not relocateable)
+Version     : 3.0.12                            Vendor: (none)
+Release     : 1                             Build Date: Sat Aug  6 08:06:58 CDT 2016
+Install date: Wed May 17 11:59:52 CDT 2017      Build Host: chip19.in.ibm.com
+Group       : System Environment/Libraries   Source RPM: libffi-3.0.12-1.src.rpm
+Size        : 129895                           License: BSD
+URL         : http://sourceware.org/libffi
+Summary     : A portable foreign function interface library
+Description :
+Compilers for high level languages generate code that follow certain
+conventions.  These conventions are necessary, in part, for separate
+compilation to work.  One such convention is the "calling convention".
+The calling convention is a set of assumptions made by the compiler
+about where function arguments will be found on entry to a function.
+A calling convention also specifies where the return value for a function
+is found.
+
+Some programs may not know at the time of compilation what arguments
+are to be passed to a function.  For instance, an interpreter may be
+told at run-time about the number and types of arguments used to call a
+given function.  `Libffi' can be used in such programs to provide a
+bridge from the interpreter program to compiled code.
+
+The `libffi' library provides a portable, high level programming
+interface to various calling conventions.  This allows a programmer to
+call any function specified by a call interface description at run time.
+
+FFI stands for Foreign Function Interface.  A foreign function
+interface is the popular name for the interface that allows code
+written in one language to call code written in another language.
+The `libffi' library really only provides the lowest, machine dependent
+layer of a fully featured foreign function interface.  A layer must
+exist above `libffi' that handles type conversions for values passed
+between the two languages.
+Name        : ncurses                      Relocations: (not relocateable)
+Version     : 6.0                               Vendor: (none)
+Release     : 1                             Build Date: Wed Jun  1 06:54:36 CDT 2016
+Install date: Wed May 17 12:01:54 CDT 2017      Build Host: green52.in.ibm.com
+Group       : System Environment/Libraries   Source RPM: ncurses-6.0-1.src.rpm
+Size        : 5681503                          License: MIT
+URL         : http://invisible-island.net/ncurses/ncurses.html
+Summary     : A terminal handling library
+Description :
+The curses library routines are a terminal-independent method of
+updating character screens with reasonable optimization.  The ncurses
+(new curses) library is a freely distributable replacement for the
+discontinued 4.4 BSD classic curses library.
+Name        : readline                     Relocations: /opt/freeware 
+Version     : 6.1                               Vendor: (none)
+Release     : 2                             Build Date: Thu Jan 29 01:36:34 CST 2015
+Install date: Wed May 17 12:02:49 CDT 2017      Build Host: green51.in.ibm.com
+Group       : System Environment/Libraries   Source RPM: readline-6.1-2.src.rpm
+Size        : 1364621                          License: GPL
+URL         : http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+Summary     : A library for reading and returning lines from a terminal.
+Description :
+The readline library will read a line from the terminal and return it.  Use of
+the readline library allows programmers to provide an easy to use and more
+intuitive interface for users.
+
+If you want to develop programs that will use the readline library, you'll also
+need to install the readline-devel package.
+Name        : sqlite                       Relocations: (not relocateable)
+Version     : 3.15.2                            Vendor: (none)
+Release     : 1                             Build Date: Wed Dec 21 00:35:06 CST 2016
+Install date: Wed May 17 12:03:02 CDT 2017      Build Host: green52.in.ibm.com
+Group       : Applications/Databases        Source RPM: sqlite-3.15.2-1.src.rpm
+Size        : 11176772                         License: Public Domain
+URL         : http://www.sqlite.org/
+Summary     : Library that implements an embeddable SQL database engine
+Description :
+SQLite is a C library that implements an embeddable SQL database engine.
+Programs that link with the SQLite library can have SQL database access
+without running a separate RDBMS process. The distribution comes with a
+standalone command-line access program (sqlite) that can be used to
+administer an SQLite database and which serves as an example of how to
+use the SQLite library.
+
+The library is available as 32-bit and 64-bit.
+Name        : zlib                         Relocations: /opt/freeware 
+Version     : 1.2.11                            Vendor: (none)
+Release     : 1                             Build Date: Tue Feb 14 03:02:23 CST 2017
+Install date: Wed May 17 12:03:15 CDT 2017      Build Host: green52.in.ibm.com
+Group       : System Environment/Libraries   Source RPM: zlib-1.2.11-1.src.rpm
+Size        : 424099                           License: zlib
+URL         : http://www.zlib.net/
+Summary     : The zlib compression and decompression library.
+Description :
+The zlib compression library provides in-memory compression and decompression
+functions, including integrity checks of the uncompressed data.  This version
+of the library supports only one compression method (deflation), but other
+algorithms may be added later, which will have the same stream interface.  The
+zlib library is used by many different system programs.
+Name        : xz-libs                      Relocations: (not relocateable)
+Version     : 5.2.2                             Vendor: (none)
+Release     : 1                             Build Date: Wed May 18 01:11:45 CDT 2016
+Install date: Wed May 17 12:05:50 CDT 2017      Build Host: green52.in.ibm.com
+Group       : System Environment/Libraries   Source RPM: xz-5.2.2-1.src.rpm
+Size        : 1182103                          License: LGPLv2+
+URL         : http://tukaani.org/xz/
+Summary     : Libraries for decoding LZMA compression
+Description :
+Libraries for decoding files compressed with LZMA or XZ utils.
+Name        : python                       Relocations: /opt/freeware 
+Version     : 2.7.12                            Vendor: (none)
+Release     : 2                             Build Date: Mon Feb 20 04:25:15 CST 2017
+Install date: Wed May 17 12:22:11 CDT 2017      Build Host: green52.in.ibm.com
+Group       : Development/Languages         Source RPM: python-2.7.12-2.src.rpm
+Size        : 76230318                         License: Modified CNRI Open Source License
+URL         : http://www.python.org/
+Summary     : An interpreted, interactive, object-oriented programming language.
+Description :
+Python is an interpreted, interactive, object-oriented programming
+language often compared to Tcl, Perl, Scheme or Java. Python includes
+modules, classes, exceptions, very high level dynamic data types and
+dynamic typing. Python supports interfaces to many system calls and
+libraries, as well as to various windowing systems (X11, Motif, Tk,
+Mac and MFC).
+
+Programmers can write new built-in modules for Python in C or C++.
+Python can be used as an extension language for applications that need
+a programmable interface. This package contains most of the standard
+Python modules, as well as modules for interfacing to the Tix widget
+set for Tk and RPM.
+
+Note that documentation for Python is provided in the python-docs
+package.
+Name        : rsync                        Relocations: (not relocateable)
+Version     : 3.1.2                             Vendor: (none)
+Release     : 1                             Build Date: Thu Apr 14 05:30:28 CDT 2016
+Install date: Wed May 17 12:23:05 CDT 2017      Build Host: green52.in.ibm.com
+Group       : Applications/Internet         Source RPM: rsync-3.1.2-1.src.rpm
+Size        : 902935                           License: GPLv3+
+URL         : http://rsync.samba.org
+Summary     : A program for synchronizing files over a network.
+Description :
+Rsync uses a reliable algorithm to bring remote and host files into
+sync very quickly. Rsync is fast because it just sends the differences
+in the files over the network instead of sending the complete
+files. Rsync is often used as a very powerful mirroring process or
+just as a more capable replacement for the rcp command. A technical
+report which describes the rsync algorithm is included in this
+package.
+Name        : less                         Relocations: /opt/freeware 
+Version     : 481                               Vendor: (none)
+Release     : 1                             Build Date: Wed May 18 00:39:21 CDT 2016
+Install date: Wed May 17 12:23:28 CDT 2017      Build Host: green52.in.ibm.com
+Group       : Applications/Text             Source RPM: less-481-1.src.rpm
+Size        : 1354200                          License: GPL v3
+URL         : http://www.greenwoodsoftware.com/less/
+Summary     : A text file browser similar to more, but better
+Description :
+Less is a pager. A pager is a program that displays text files. Other
+pagers commonly in use are more and pg. Pagers are often used in
+command-line environments like the Unix shell and the MS-DOS command
+prompt to display files. Windowed environments like the Windows and
+Macintosh desktops don't need pagers as much, since they have other
+methods for viewing files.
+
+Less is not an editor. You can't change the contents of the file you're
+viewing. Less is not a windowing system. It doesn't have fancy scroll
+bars or other GUI (graphical user interface) elements. It was designed
+to work on simple text-only terminals.
+Name        : git                          Relocations: (not relocateable)
+Version     : 2.8.1                             Vendor: (none)
+Release     : 1                             Build Date: Wed Jun 29 02:10:06 CDT 2016
+Install date: Wed May 17 12:23:55 CDT 2017      Build Host: green52.in.ibm.com
+Group       : Development/Tools             Source RPM: git-2.8.1-1.src.rpm
+Size        : 415409984                        License: GPLv2
+URL         : http://kernel.org/pub/software/scm/git/
+Summary     : Core git tools
+Description :
+Git is a fast, scalable, distributed revision control system with an
+unusually rich command set that provides both high-level operations
+and full access to internals.
